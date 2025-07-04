@@ -97,6 +97,3 @@ scscore.py applies fingerprint-based neural scoring for complexity
 This repository is intended for academic and research purposes only.
 Please respect individual licenses of external tools such as RDKit, SCScore, and AiZynthFinder.
 
-yaml
-Copy
-Edit
