@@ -68,7 +68,7 @@ Note: Requires BRSAScore.py in the same folder.
 3. scscore.py
 Input:
 
-input_smiles.csv with SMILES column
+input_smiles.csv with Names,SMILES column
 
 SCScore models in models/ directory
 
