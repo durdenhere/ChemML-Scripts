@@ -79,19 +79,7 @@ SC_Score_output.csv: Scores from 3 models + average
 Run:
 
 python scscore.py
-📂 Folder Structure
-lua
-.
-├── json_to_word.py
-├── SA Score.py
-├── scscore.py
-├── input_smiles.csv
-├── output.json
-├── models/
-│   ├── full_reaxys_model_1024bool/
-│   ├── full_reaxys_model_2048bool/
-│   └── full_reaxys_model_1024uint8/
-└── contributions/
+
 ✅ Example input_smiles.csv
 csv
 
