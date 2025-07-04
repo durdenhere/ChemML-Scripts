@@ -40,7 +40,7 @@ Proper input files: input_smiles.csv, output.json
 1. json_to_word.py
 Input:
 
-output.json: Retrosynthesis tree from AiZynthFinder
+trees.json: Retrosynthesis tree from AiZynthFinder
 
 Output:
 
