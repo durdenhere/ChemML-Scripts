@@ -26,6 +26,7 @@ This repository provides a collection of Python tools for:
 
 Install required packages:
 
+```bash
 pip install numpy pandas rdkit python-docx anytree six
 Additional needs:
 
@@ -47,6 +48,9 @@ synthesis_tree.docx: Formatted tree with route scores
 
 Run:
 
+bash
+Copy
+Edit
 python json_to_word.py
 2. SA Score.py
 Input:
@@ -61,6 +65,9 @@ contributions/: Molecule structure PNGs
 
 Run:
 
+bash
+Copy
+Edit
 python "SA Score.py"
 Note: Requires BRSAScore.py in the same folder.
 
@@ -77,9 +84,14 @@ SC_Score_output.csv: Scores from 3 models + average
 
 Run:
 
+bash
+Copy
+Edit
 python scscore.py
 📂 Folder Structure
 lua
+Copy
+Edit
 .
 ├── json_to_word.py
 ├── SA Score.py
@@ -93,6 +105,8 @@ lua
 └── contributions/
 ✅ Example input_smiles.csv
 csv
+Copy
+Edit
 Name,SMILES
 Aspirin,CC(=O)OC1=CC=CC=C1C(=O)O
 Paracetamol,CC(=O)NC1=CC=C(C=C1)O
@@ -107,4 +121,6 @@ scscore.py applies fingerprint-based neural scoring for complexity
 This repository is intended for academic and research purposes only.
 Please respect individual licenses of external tools such as RDKit, SCScore, and AiZynthFinder.
 
-
+yaml
+Copy
+Edit
